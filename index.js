@@ -3,9 +3,12 @@ const fs = require('fs');
 
 // Destructuring Assignment: const { a, b } = obj;
 const generateREADME = ({ projectName, license, description, installation, usage, contributing, tests, emailAddress, githubUsername }) => 
-`
+{
+    const licenseStringNoSpace = license.split(" ").join("");
+
+return `
 # 🔖 ${projectName}
-![Github License](https://img.shields.io/badge/license-${license}-blue.svg)
+![Github License](https://img.shields.io/badge/license-${licenseStringNoSpace}-blue.svg)
 
 ## 🖊️ Description
 ${description}
@@ -41,8 +44,7 @@ ${tests}
 
 ## ❓ Questions
 If you have any question about the repo, open an issue or contact me directly at ${emailAddress}. You can find more of my work at [${githubUsername}](https://github.com/${githubUsername}?tab=repositories).
-`;
-
+`;}
 
 inquirer
     .prompt([
@@ -105,8 +107,9 @@ inquirer
         },
     ])
     .then((data) => {
-        console.log(data)
+        // console.log(data);
         const readMeContent = generateREADME(data);
 
-        fs.writeFile('README.md', readMeContent, (err) => err ? console.log(`Error Happened! ${err}`) : console.log('Successfully created a professional README file!'));
+        // set path to the sample file, so the generated readme file will inside the sample folder
+        fs.writeFile('./sample/README.md', readMeContent, (err) => err ? console.log(`Error Happened! ${err}`) : console.log('Successfully created a professional README file!'));
     });
