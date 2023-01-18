@@ -16,6 +16,8 @@
 ❗❗❗ ☛ [Clik Me To The Page!](https://drive.google.com/file/d/1YGLhAfYM7MCMeEJbgjtinuhXynmXpmbZ/view) ☚ ❗❗❗
 ```
 https://drive.google.com/file/d/1YGLhAfYM7MCMeEJbgjtinuhXynmXpmbZ/view
+
+(If the link is not working, please see the tutorial gif at the next section.)
 ```
 
 ## 🦊 Screenshots Of The Applications:
@@ -24,12 +26,12 @@ https://drive.google.com/file/d/1YGLhAfYM7MCMeEJbgjtinuhXynmXpmbZ/view
 |:--:| 
 | *Prompted questions* |
 
-|![screentshot02](./images/02.png)|
-|:--:| 
-| *Generated readme.md file* |
-
 |![screentshot02](./images/03.png)|
 |:--:| 
 | *Sample of the generated readme file* |
+
+|![screentshot02](./images/README%20Generator%20Tutorial.gif)|
+|:--:| 
+| *Short tutorial* |
 - - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
