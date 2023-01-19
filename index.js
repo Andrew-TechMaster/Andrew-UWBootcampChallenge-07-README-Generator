@@ -7,13 +7,13 @@ const generateREADME = ({ projectName, license, description, installation, usage
     const licenseStringNoSpace = license.split(" ").join("");
 
 return `
-# 🔖 ${projectName}
+# ${projectName}
 ![Github License](https://img.shields.io/badge/license-${licenseStringNoSpace}-blue.svg)
 
-## 🖊️ Description
+## Description
 ${description}
 
-## 📋 Table Of Contents
+## Table Of Contents
  >* [Installation](#installtion)
  >* [Usage](#usage)
  >* [License](#license)
@@ -21,28 +21,28 @@ ${description}
  >* [Tests](#tests)
  >* [Questions](#questions)
 
-## 🖥️ Installation
+## Installation
 To install necessary dependencies, run the following command:
 \`\`\`
 ${installation}
 \`\`\`
 
-## ⚙️ Usage
+## Usage
 ${usage}
 
-## 🪪 License
+## License
 The project is licensed under the ${license} License
 
-## 🧑‍🤝‍🧑 Contributing
+## Contributing
 ${contributing}
 
-## 🧪 Tests
+## Tests
 To run tests, run the following command:
 \`\`\`
 ${tests}
 \`\`\`
 
-## ❓ Questions
+## Questions
 If you have any question about the repo, open an issue or contact me directly at ${emailAddress}. You can find more of my work at [${githubUsername}](https://github.com/${githubUsername}?tab=repositories).
 `;}
 
