@@ -1,9 +1,9 @@
 
-# Andrew's README Generator
-![Github License](https://img.shields.io/badge/license-GPL3.0-blue.svg)
+# README Generator
+[![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ## Description
-Automatically generate a professianl readme file
+Automatically generate a readme file
 
 ## Table Of Contents
  >* [Installation](#installtion)
@@ -26,7 +26,7 @@ feel free to use it
 The project is licensed under the GPL 3.0 License
 
 ## Contributing
-welcome!
+UW bootcamp
 
 ## Tests
 To run tests, run the following command:
@@ -35,4 +35,5 @@ npm test
 ```
 
 ## Questions
-If you have any question about the repo, open an issue or contact me directly at test@gmail.com. You can find more of my work at [Andrew-TechMaster](https://github.com/Andrew-TechMaster?tab=repositories).
+If you have any question about the repo, open an issue or contact me directly at andrewchou1996@gmail.com. You can find more of my work at [Andrew-TechMaster](https://github.com/Andrew-TechMaster?tab=repositories).
+
